@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TOSSY — AIに救われ、AIで恩返しする男。名刺から辿る、世界観の玄関。">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>TOSSY | 名刺専用LP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="video-bg" aria-hidden="true">
+    <video
+      class="video-bg__video"
+      src="assets/background.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+    ></video>
+    <div class="video-bg__overlay"></div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <!-- 01: Hero — 世界観の入口 -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Business Card Portal</p>
+        <h1 id="hero-title" class="hero__title">TOSSY</h1>
+        <p class="hero__tagline">AIに救われ、AIで恩返しする男</p>
+        <p class="hero__lead">
+          名刺を受け取ってくれたあなたへ<br>
+          TOSSYの世界観へようこそ
+        </p>
+      </div>
+
+    </section>
+
+    <!-- 02: Featured — 最初に見てほしいコンテンツ -->
+    <section class="section section--featured" aria-labelledby="featured-title">
+      <div class="section__inner">
+        <header class="section__header">
+          <h2 id="featured-title" class="section__title" style="color:#fff;">自己紹介</h2>
+        </header>
+
+        <div class="featured-video">
+          <div class="featured-video__wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/oBTXxKK1w7k"
+              title="TOSSYとは"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03: Activities — 活動・コンテンツへの導線 -->
+    <section class="section section--links" aria-labelledby="links-title">
+      <div class="section__inner">
+        <header class="section__header">
+          <h2 id="links-title" class="section__title">活動・コンテンツ</h2>
+        </header>
+
+        <ul class="link-grid">
+          <!-- 追加・並び替えは li.card-link を複製するだけ -->
+          <li>
+            <a
+              class="card-link"
+              href="https://example.com/ai-terakoya"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <div class="card-link__content">
+                <h3 class="card-link__title">AI寺子屋</h3>
+                <p class="card-link__text">AIを、もっと身近に。学びと実践の場。</p>
+              </div>
+              <span class="card-link__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="card-link"
+              href="https://www.youtube.com/@YOUR_CHANNEL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <div class="card-link__content">
+                <h3 class="card-link__title">YouTubeチャンネル</h3>
+                <p class="card-link__text">AI活用・創作・日常を発信しています。</p>
+              </div>
+              <span class="card-link__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="card-link"
+              href="https://www.amazon.co.jp/s?k=TOSSY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <div class="card-link__content">
+                <h3 class="card-link__title">Kindle出版作品</h3>
+                <p class="card-link__text">AIと生きる、書く、届ける。電子書籍一覧。</p>
+              </div>
+              <span class="card-link__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="card-link card-link--line"
+              href="https://lin.ee/YOUR_LINE_ID"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <div class="card-link__content">
+                <h3 class="card-link__title">公式LINE</h3>
+                <p class="card-link__text">最新情報・限定コンテンツをお届けします。</p>
+              </div>
+              <span class="card-link__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="card-link card-link--primary"
+              href="https://example.com/toshi-creation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <div class="card-link__content">
+                <h3 class="card-link__title">TOSHI CREATION</h3>
+                <p class="card-link__text">公式ホームページ。すべての活動のハブ。</p>
+              </div>
+              <span class="card-link__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__copy">Business Card Portal</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
