@@ -313,8 +313,14 @@ img {
 /* YouTube埋め込み */
 .featured-video {
   width: 100%;
-  max-width: 720px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .featured-video {
+    max-width: 100%;
+  }
 }
 
 .featured-video__wrapper {
